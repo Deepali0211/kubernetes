@@ -1,0 +1,11 @@
+1. "There are two pods in a k8s node of the same configurations, one pod is crashing, but another pod is working fine. What can be the issue and how will you troubleshoot it?"
+- **Potential Issues**: 
+ - Resource Allocation: The crashing pod might be exceeding resource limits.
+ - Network Interference: Issues with network connectivity can lead to pod failures.
+ - Application Bugs: Software issues within the crashing pod may cause failures.
+ - Environmental Factors: External dependencies or misconfigurations can impact pod stability.
+- **Troubleshooting Steps**:
+ - Check Pod Logs: Reviewing pod logs can provide insights into the crash reasons.
+ - Resource Monitoring: Analyze resource utilization to identify any anomalies.
+ - Network Diagnostics: Verify network settings and connectivity for both pods.
+ - Debugging Tools: Utilize Kubernetes diagnostic tools for further investigation.
